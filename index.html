@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>iHTTP - a very simple http-ajax library</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" class="">
+</head>
+<body>
+
+  <div class="container">
+    <button id="GET_button">GET data</button>
+    <button id="POST_button">POST data</button>
+    <button id="PUT_button">UPDATE data</button>
+    <button id="DELETE_button">DELETE data</button>
+
+    <!-- results show here -->
+    <br><br>
+    <h3>Result</h3>
+    <div id="results">
+    </div>
+  </div>
+
+  <!-- include easyHTTP library (Async and Fetch) -->
+  <script src="ihttp-async.js"></script>
+  <!-- include demo app.js -->
+  <script src="demo.js"></script>
+</body>
+</html>
